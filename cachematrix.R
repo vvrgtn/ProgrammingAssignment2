@@ -14,7 +14,6 @@
 ## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix(),...) {
-        print(x)
         i<<-NULL
         set<-function(y){
                 x<<-y
@@ -35,6 +34,7 @@ cacheSolve <- function(x, ...) {
                 print("getting cached data")
                 return(inv)
         }
+        data<-x$get()
         inv <-solve(data)
         x$setinverse(inv)
         inv        ## Return a matrix that is the inverse of 'x'
