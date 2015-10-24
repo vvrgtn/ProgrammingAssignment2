@@ -1,10 +1,10 @@
-##Programming Assignment 2 for Coursera R Programming course 
+##Programming Assignment 2 for Coursera R Programming course- Gaetano Vivirito 22/10/2015
 ##The assignment asks to write two functions. They should compute and store in cache the inverse of a matrix
 ##General Hipothesis: all matrix supplied are always invertible
 
 ##The first function creates a list of 4 functions 
 ##The second function computes the inverse of a matrix. Before that it checks though if it has already been calculated. 
-##if positive it returns the result without redoing the computing.
+##if positive it returns the result without redoing the computing
 
 
 ##Description of makeCacheMatrix function: 
